@@ -3108,6 +3108,18 @@ files = [
 diagrams = ["jinja2", "railroad-diagrams"]
 
 [[package]]
+name = "pyspellchecker"
+version = "0.8.3"
+description = "Pure python spell checker based on work by Peter Norvig"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "pyspellchecker-0.8.3-py3-none-any.whl", hash = "sha256:e993076e98b0da5a99b7cc31085c3022c77a9dc37c5e95f5cf6304b5dbb8b9d2"},
+    {file = "pyspellchecker-0.8.3.tar.gz", hash = "sha256:cb06eeafe124837f321e0d02f8e21deab713e966e28e0360319a28a089c43978"},
+]
+
+[[package]]
 name = "python-dateutil"
 version = "2.9.0.post0"
 description = "Extensions to the standard Python datetime module"
@@ -4932,4 +4944,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "==3.12.11"
-content-hash = "e099d89eda8c7cc0f1f4c0c95459f57085aaebd0cc6bbe4f2626f49ef3c31637"
+content-hash = "f02b500696351e6c6417f8b56875e381a702839b1161d33f8b1698e8341a8672"
